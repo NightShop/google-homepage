@@ -1,0 +1,90 @@
+/*=================
+GENERAL
+==================*/
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.search-section {
+    width: 680px;
+    margin: 0 auto;
+}
+
+/*=================
+FORMS
+==================*/
+
+.btn {
+    border: 1px solid #f2f2f2;
+    margin: 0 4px;
+    height: 36px;
+    padding: 0px 16px;
+    font: 400 14px Arial;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    cursor: pointer;
+}
+
+.btn-group {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.search {
+    position: relative;
+}
+
+.search-bar {
+    margin: 40px auto 20px auto;
+    display: block;
+    height: 44px;
+    border-radius: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 90%;
+    padding-left: 50px;
+    background: transparent url("https://tinyurl.com/y9uke965") 16px 50% no-repeat;
+    font: 16px arial;
+}
+
+
+.search-bar:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.microphone-icon {
+    position: absolute;
+    width: 24px;
+    left: 89%;
+    bottom: 53%;
+    cursor: pointer;
+}
+
+/*=================
+IMAGES
+==================*/
+
+img {
+    display: block;
+    margin: 180px auto 0 auto;
+}
+
+.logo {
+    cursor: pointer;
+    padding: 0;
+}
