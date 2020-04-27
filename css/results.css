@@ -1,0 +1,120 @@
+/*=================
+GENERAL
+==================*/
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 692px;
+    margin-left: 180px;
+
+}
+/*=================
+FORMS
+==================*/
+
+
+
+/*=================
+IMAGES
+==================*/
+
+.logo img {
+    width: 92px;
+    margin-left: 20px;
+    margin-right: 55px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+/*=================
+HEADER
+==================*/
+
+.header-top {
+    display: flex;
+    height: 46px;
+    align-items: center;
+    margin-top: 23px;
+    flex-wrap: nowrap;
+}
+
+.search-bar {
+    width: 695px;
+    font: 16px arial;
+    margin-left: 25px;
+    border: none;
+}
+
+.apps-btn {
+    display: inline-block;
+    background: transparent url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png") -132px -38px no-repeat;  
+    width: 30px;
+    height: 30px;
+    opacity: .55;
+    font-size: 0px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+.apps-btn:hover {
+    opacity: 1;
+}
+
+.prof-btn {
+    display: inline-block;
+    background: transparent url("../assets/b-icon.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 0px;
+    margin-left: 15px;
+    margin-right: 20px;
+    vertical-align: middle;
+    border-radius: 50%
+}
+
+.box-2 {
+    margin-right: 200px;
+    width: 720px;
+    height: 46px;
+    border-radius: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font: 16px arial;
+    display: flex;
+    align-items: center;
+}
+
+.box-2:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        border: none;
+}
+
+.box-4 {
+    margin-left: auto;
+    white-space: nowrap;
+}
+
+.search-icon {
+    padding-right: 17px;
+    color: #4285f4;
+    cursor: pointer;
+    
+}
+
+.clear-icon {
+    margin: 0 10px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+/*=================
+FOOTER
+==================*/
