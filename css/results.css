@@ -15,6 +15,11 @@ GENERAL
     margin-left: 180px;
 
 }
+
+body {
+    font-family: arial,sans-serif;
+}
+
 /*=================
 FORMS
 ==================*/
@@ -38,6 +43,10 @@ IMAGES
 HEADER
 ==================*/
 
+header {
+    border-bottom: 1px solid #ebebeb;
+}
+
 .header-top {
     display: flex;
     height: 46px;
@@ -51,6 +60,7 @@ HEADER
     font: 16px arial;
     margin-left: 25px;
     border: none;
+    color: rgba(0,0,0,.87);
 }
 
 .apps-btn {
@@ -113,6 +123,53 @@ HEADER
     margin: 0 10px;
     cursor: pointer;
     color: rgba(0, 0, 0, 0.54);
+}
+
+/*=================
+NAVIGATION
+==================*/
+
+.navigation {
+    display: flex;
+    height: 58px;
+    justify-content: baseline;
+}
+
+.navigation li:first-child a {
+    color: #1A73E8;
+    border-bottom: 3px solid #1A73E8;
+}
+
+.navigation li a {
+    display: inline-block;
+    margin: 7px 1px 0px 1px;
+    padding: 16px 12px 12px 12px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 14px;
+ }
+
+.navigation span {
+
+}
+
+.navigation .nav-right {
+    margin-left: auto;
+    white-space: nowrap;
+    line-height: 22px;
+}
+
+.navigation .nav-right a{
+
+    
+}
+
+.material-icons.md-16 {
+    font-size: 18px !important;
+    padding-right: 5px;
+    position: relative;
+    top: 4px;
 }
 
 /*=================
