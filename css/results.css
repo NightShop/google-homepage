@@ -44,7 +44,7 @@ HEADER
 ==================*/
 
 header {
-    border-bottom: 1px solid #ebebeb;
+    
 }
 
 .header-top {
@@ -148,6 +148,7 @@ NAVIGATION
     text-decoration: none;
     color: #5f6368;
     font-size: 14px;
+    outline: none;
  }
 
 .navigation span {
@@ -170,6 +171,121 @@ NAVIGATION
     padding-right: 5px;
     position: relative;
     top: 4px;
+}
+
+.speed-results {
+    display: block;
+    border-top: 1px solid #ebebeb;
+    height: 43px;
+    line-height: 43px;
+    color: #70757a;
+    font-size: 14px;
+}
+
+/*=================
+RESULTS-SNIPPET
+==================*/
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.result-1-snippet {
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+    padding: 16px;
+    line-height: 25px;
+
+
+}
+
+.result-1-snippet h5 {
+    display: flex;
+    justifiy-content: center;
+    margin-top: 30px;
+
+
+}
+
+.result-1-snippet a {
+    padding: 25px 0 10px 0;
+}
+
+.result-1-snippet .site-title a{
+    dsiplay: inline-block;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.result-1-snippet .site-title a:hover {
+    text-decoration: underline;
+}
+
+.snippets {
+    display: flex;
+    justify-content: flex-end;
+    color: #9e9e9e;
+    font-size: 12px;
+    align-items: center;
+}
+
+.snippets p {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.snippets i {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+
+.material-icons.md-13 {
+    font-size: 16px;
+
+}
+
+/*=================
+RESULTS-MAIN
+==================*/
+
+.result h5 {
+    display: flex;
+    justifiy-content: center;
+    margin-top: 5px;
+}
+
+.result .site-title a {
+    dsiplay: inline-block;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.result h3 {
+    margin: 4px 0;
+    font-weight: normal;
+}
+
+.result h3:hover {
+    text-decoration: underline;
+}
+
+.result {
+    font-size: 16px;
+    padding-top: 16px;
+    line-height: 25px;
+    color: #4d5156;
+    margin-bottom: 10px;
+
+
 }
 
 /*=================
