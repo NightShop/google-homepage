@@ -355,6 +355,213 @@ table td a {
 table td a:hover {
     text-decoration: underline;
 }
+
+.pages-nav {
+    margin: 30px auto;
+}
+
+.pages-nav ol {
+    display: flex;
+}
+
+.pages-nav ol li {
+    width: 20px;
+    height: 40px;
+    text-align: center;
+    vertical-align: bottom;
+    position: relative;
+}
+
+.pages-nav ol li a {
+    text-decoration: none;
+    color: #4285f4;
+}
+
+.pages-nav ol li a:hover {
+    text-decoration: underline;
+}
+
+.letter-g {
+    background-image: url("../assets/nav-icons.png");
+    background-position: -24px 0;
+    background-size: 167px;
+    width: 28px !important;
+}
+
+.one {
+    background-image: url("../assets/nav-icons.png");
+    background-position: -53px 0;
+    background-size: 167px;
+    vertical-align: bottom;
+
+    
+}
+
+.one a {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.two {
+    background-image: url("../assets/nav-icons.png");
+    background-position: -74px 0;
+    background-size: 167px;
+    vertical-align: bottom;
+
+    
+}
+
+.two a {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.three {
+    background-image: url("../assets/nav-icons.png");
+    background-position: -74px 0;
+    background-size: 167px;
+    vertical-align: bottom;
+
+    
+}
+
+.three a {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.four {
+    background-image: url("../assets/nav-icons.png");
+    background-position: -74px 0;
+    background-size: 167px;
+    vertical-align: bottom;
+
+    
+}
+
+.four a {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.five {
+    background-image: url("../assets/nav-icons.png");
+    background-position: -74px 0;
+    background-size: 167px;
+    vertical-align: bottom;
+
+    
+}
+
+.five a {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.six {
+    background-image: url("../assets/nav-icons.png");
+    background-position: -74px 0;
+    background-size: 167px;
+    vertical-align: bottom;
+
+    
+}
+
+.six a {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.seven {
+    background-image: url("../assets/nav-icons.png");
+    background-position: -74px 0;
+    background-size: 167px;
+    vertical-align: bottom;
+
+    
+}
+
+.seven a {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.eight {
+    background-image: url("../assets/nav-icons.png");
+    background-position: -74px 0;
+    background-size: 167px;
+    vertical-align: bottom;
+
+    
+}
+
+.eight a {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.nine {
+    background-image: url("../assets/nav-icons.png");
+    background-position: -74px 0;
+    background-size: 167px;
+    vertical-align: bottom;
+
+    
+}
+
+.nine a {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.ten {
+    background-image: url("../assets/nav-icons.png");
+    background-position: -74px 0;
+    background-size: 167px;
+    vertical-align: bottom;
+
+    
+}
+
+.ten a {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.next {
+    background-image: url("../assets/nav-icons.png");
+    background-position: -96px 0;
+    background-size: 167px;
+    width: 71px !important;
+}
+
+.next a {
+    position: relative;
+    top: 40px;
+    left: 25px;
+    width: 100%;
+    padding-top: 50px;
+}
 /*=================
 FOOTER
 ==================*/
