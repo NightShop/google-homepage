@@ -1,1 +1,4 @@
-This is replication of Google's landing page I made using HTML and CSS for learning purposes.
+This is replication of Google's landing and results page.
+
+https://nightshop.github.io/google-homepage/. 
+
